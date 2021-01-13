@@ -7,8 +7,8 @@
 5- git checkout -- . (per agafar la informació del ultim commit guardat en cas d'un error)
 6- git log
 7- git commit --amend (per a modificar detalls d'escritura dels commits)
-8- git checkout -b rama-heroes
-9- checkout master/main
+8- git checkout -b rama-heroes (nova branca)
+9- checkout master/main (canvi d'una branca a una altra. p.e. rama-heroes a main)
 
 
 
