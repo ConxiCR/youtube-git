@@ -8,6 +8,7 @@
 6- git log
 7- git commit --amend (per a modificar detalls d'escritura dels commits)
 8- git checkout -b rama-heroes
+9- checkout master/main
 
 
 
