@@ -10,7 +10,8 @@
 8. git checkout -b rama-heroes (nova branca)
 9. checkout master/main (canvi d'una branca a una altra. p.e. rama-heroes a main)
 10. git branch -d rama-heroes (per borrar una branca que ja no utilitzem)
-11. 
+11. git push
+12. git commit -am (junta git add . + git commit -m. Només en casos en seguiments continuos)
 
 
 
