@@ -3,9 +3,8 @@
 1. git init
 2. git add .
     - git add _nombre fichero p.e index.html_ - \*añade los cambios efectuados en este fichero\*
-    - git add . or .git add --all - \*añade todos los cambios efectuados hasta el momento\*
-3. 
-4. git commit -m "\*explicación de los cambios"
+    - git add . or git add --all - \*añade todos los cambios efectuados hasta el momento\*
+3. git commit -m "\*explicación de los cambios"
     - git commit --amend (per a modificar detalls d'escritura dels commits)
     - git commit -am - \*junta git add . + git commit -m. Només en casos en seguiments continuos\*
 5. git checkout -- . (per agafar la informació del ultim commit guardat en cas d'un error)
