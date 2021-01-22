@@ -1,7 +1,7 @@
 ## Comando iniciales
 * git config --global user.name _(nombre de quien va a hacer el código)_
 * git config --global user.email _(email de quien va a hacer el código)_
-## Comandos útiles de GIT
+## Comandos de GIT
 ```ruby 
 1.  git init - \*crea una carpeta .git y una rama main/master\*
         - git clone URL - \*baja el repertorio de GITHUB que queremos trabajar a local\*
