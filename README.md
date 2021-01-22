@@ -34,7 +34,7 @@ https://docs.github.com/es/github/writing-on-github/getting-started-with-writing
 
 1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
 2. git log --oneline --decorate --all --graph - \*nos enseña todas las relaciones del fichero y en que situación se encuentran\*
-3. status - \*Indica en rojo los archivos con cambios\*
+3. git status - \*Indica en rojo los archivos con cambios\*
         - git status -s - \*otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas\*
 4. git log -g - \*aparecen commits perdidos\*
 5. git remote -v - nos enseña la url de GITHUB de la carpeta de destino
