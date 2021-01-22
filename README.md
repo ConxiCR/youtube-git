@@ -1,5 +1,5 @@
 ## Comando iniciales
-* git config --global user.names _(nombre de quien va a hacer el código)_
+* git config --global user.name _(nombre de quien va a hacer el código)_
 * git config --global user.email _(email de quien va a hacer el código)_
 ## Comandos útiles de GIT
 ```ruby 
