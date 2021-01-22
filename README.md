@@ -1,6 +1,6 @@
 ## Comandos útiles de GIT
-
-1. ```ruby git init```
+```ruby 
+1. git init
 2. git add .
   - git add (nombre fichero p.e index.html) - \*añade los cambios efectuados en este fichero\*
   - git add . or .git add --all - \*añade todos los cambios efectuados hasta el momento\*
@@ -14,7 +14,7 @@
 10. git branch -d rama-heroes (per borrar una branca que ja no utilitzem)
 11. git push
 12. git commit -am (junta git add . + git commit -m. Només en casos en seguiments continuos)
-
+```
 ## Cómo cambiar la URL remota en GIT 
 
 . git remote set-url origin https://github.org/repo.git - para poder hacer los push correctamente
