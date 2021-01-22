@@ -2,6 +2,8 @@
 
 1. git init
 2. git add .
+  2.2. git add (nombre fichero p.e index.html) - añade los cambios efectuados en este fichero
+  2.3. git add . or .git add --all - añade todos los cambios efectuados hasta el momento
 3. git reset .
 4. git commit -m "explicación de los cambios"
 5. git checkout -- . (per agafar la informació del ultim commit guardat en cas d'un error)
@@ -19,12 +21,15 @@
 
 # consultas de GIT
 
-1. git add (nombre fichero p.e index.html) - añade los cambios efectuados en este fichero
-2. git add . or .git add --all - añade todos los cambios efectuados hasta el momento
-3. ls -al - nos enseña todo lo que hay en la carpeta
-4. git reset *(nombre de la extensión p.e. .xml) - para borar ficheros del stage o cualquier  otra cosa
-5. git log --oneline --decorate --all --graph - nos enseña todas las relaciones del fichero y en que situación se encuentran
-6. git status -s - otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas
+1. ls -al - nos enseña todo lo que hay en la carpeta
+2. git log --oneline --decorate --all --graph - nos enseña todas las relaciones del fichero y en que situación se encuentran
+3. git status -s - otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas
+4. 
+5. 
+6. 
+
+# Formas de borrar
+1. git reset *(nombre de la extensión p.e. .xml) - para borar ficheros del stage o cualquier  otra cosa
 
 # push
 .git push -f origin main - para forzar un push
