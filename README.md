@@ -1,6 +1,6 @@
 ## Comandos útiles de GIT
 
-1. ```ruby git init
+1. ```ruby git init```
 2. git add .
   - git add (nombre fichero p.e index.html) - \*añade los cambios efectuados en este fichero\*
   - git add . or .git add --all - \*añade todos los cambios efectuados hasta el momento\*
