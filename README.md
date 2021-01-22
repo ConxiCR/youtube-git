@@ -1,10 +1,10 @@
 https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github
-## Comando iniciales
+## Comando iniciales##
 
 * git config --global user.name _(nombre de quien va a hacer el código)_
 * git config --global user.email _(email de quien va a hacer el código)_
 
-## Comandos de GIT
+## Comandos de GIT##
 ```ruby 
 1.  git init - \*crea una carpeta .git y una rama main/master\*
         - git clone URL - \*baja el repertorio de GITHUB que queremos trabajar a local\*
@@ -26,26 +26,26 @@ https://docs.github.com/es/github/writing-on-github/getting-started-with-writing
 10. git push
  
 ```
-## Cómo cambiar la URL remota en GIT 
+## Cómo cambiar la URL remota en GIT##
 
-. git remote set-url origin https://github.org/repo.git - \*para poder hacer los push correctamente\*
+. git remote set-url origin https://github.org/repo.git - < para poder hacer los push correctamente >
 
-# consultas de GIT
+# consultas de GIT##
 
 1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
 2. git log --oneline --decorate --all --graph - \*nos enseña todas las relaciones del fichero y en que situación se encuentran\*
 3. status - \*Indica en rojo los archivos con cambios\*
         - git status -s - \*otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas\*
 4. git log -g - \*aparecen commits perdidos\*
-5. 
+5. git remote -v - nos enseña la url de GITHUB de la carpeta de destino
 6. 
 
-## Formas de borrar
+## Formas de borrar##
 1. git reset *_nombre de la extensión p.e .xml_ - \*para borrar ficheros del stage o cualquier otra cosa\*
 2. git reset .
 3. git gc - \*garbage collector. recolector de basura. Para borrar definitivamente no tiene que haber nada en branch, tag y reflog\*
 
-## push
+## push##
 *git push -f origin main - para forzar un push
 
 
