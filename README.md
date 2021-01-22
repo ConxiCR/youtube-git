@@ -1,8 +1,8 @@
-# Comandos útiles de GIT
+## Comandos útiles de GIT
 
 1. git init
 2. git add .
-  - git add (nombre fichero p.e index.html) - añade los cambios efectuados en este fichero
+  - git add (nombre fichero p.e index.html) - \*añade los cambios efectuados en este fichero\*
   - git add . or .git add --all - añade todos los cambios efectuados hasta el momento
 3. git reset .
 4. git commit -m "explicación de los cambios"
@@ -15,7 +15,7 @@
 11. git push
 12. git commit -am (junta git add . + git commit -m. Només en casos en seguiments continuos)
 
-# Cómo cambiar la URL remota en GIT 
+## Cómo cambiar la URL remota en GIT 
 
 . git remote set-url origin https://github.org/repo.git - para poder hacer los push correctamente
 
@@ -28,10 +28,10 @@
 5. 
 6. 
 
-# Formas de borrar
+## Formas de borrar
 1. git reset *(nombre de la extensión p.e. .xml) - para borar ficheros del stage o cualquier  otra cosa
 
-# push
+## push
 .git push -f origin main - para forzar un push
 
 
