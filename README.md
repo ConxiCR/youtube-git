@@ -1,4 +1,22 @@
 https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github
+## pasos a seguir##
+~~
+Metodología cuando empiezas git.
+
+    Git status -> Mirar si tienes modificaciones tuyas y si existe algún pull o push
+    Git fetch -> Por si acaso tus ramas no se han actualizado correctamente, esto NO actualiza los ficheros de las ramas, sólo el estado de esa rama
+    Git status -> Para verificar de nuevo modificaciones, pull y pushs
+    Git pull -> Ahora sí descargas las actualizaciones
+    Git add/commit/... -> Ahora guardas tus modificaciones
+    Git status -> Miras que siga sin necesitar un pull, por si las moscas
+    Git push -> Subes tus datos
+    Git status -> Compruebas que está todo correctamente
+
+Y ya por manía puedes hacer un:
+
+    Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
+
+Para salir de Git log, pulsa "Q"
 ## Comando iniciales##
 
 * git config --global user.name _(nombre de quien va a hacer el código)_
