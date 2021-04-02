@@ -48,6 +48,9 @@ Para salir de Git log, pulsa "Q"
 
 . git remote set-url origin https://github.org/repo.git - < para poder hacer los push correctamente >
 
+## Cómo eliminar una URL remota de Git
+https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
+
 # consultas de GIT##
 
 1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
