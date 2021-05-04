@@ -1,7 +1,6 @@
-#### [Start GIT - Resume] (https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+## [Start GIT - Resume](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 Es una buena idea mantener todas las carpetas del repositorio local dentro de una carpeta principal del equipo. Esto mantiene su trabajo de Git muy bien organizado.
-## Pasos a seguir:	
-
+## Resume: Pasos a seguir:
 <ul>
 	<li>Identify benefits of using Git</li>
 	<li>Describe a repository</li>
@@ -11,11 +10,14 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
 	<li>Create a remote repository</li>
 	<li>Push to a remote repository</li>
 	<li>Differentiate between the working tree, staging area, local repository and remote repository</li>
-<ul>
+</ul>
 
 ## Metodología: Inicio git
-### Installation and Getting Started
-[![cli_installation] https:// ]
+* git config --global user.name _(nombre de quien va a hacer el código)
+* git config --global user.email _(email de quien va a hacer el código)
+  ### Installation and Getting Started
+[sourcetree_installation](https://github.com/ConxiCR/youtube-git/blob/61c182b0a38ef98787268f212a8c6f4e72ad2f43/lab3_1_02a_sourcetree_installation.pdf)
+[cli_installation]()
 
 
 
@@ -27,17 +29,9 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
     Git add/commit/... -> Ahora guardas tus modificaciones
     Git status -> Miras que siga sin necesitar un pull, por si las moscas
     Git push -> Subes tus datos
-    Git status -> Compruebas que está todo correctamente
+    Git status -> Compruebas que está todo correctamente-->
 
-Y ya por manía puedes hacer un:
 
-    Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
-
-Para salir de Git log, pulsa "Q"
-## Comando iniciales
-
-* git config --global user.name _(nombre de quien va a hacer el código)_
-* git config --global user.email _(email de quien va a hacer el código)_
 
 ## Comandos de GIT
 ```ruby 
@@ -61,14 +55,15 @@ Para salir de Git log, pulsa "Q"
 10. git push
  
 ```
-## Cómo cambiar la URL remota en GIT##
-
+### Cómo cambiar la URL remota en GIT##
 . git remote set-url origin https://github.org/repo.git - < para poder hacer los push correctamente >
 
-## Cómo eliminar una URL remota de Git
+### Cómo eliminar una URL remota de Git
 https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
 
-# consultas de GIT##
+### consultas de GIT
+ Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
+ Para salir de Git log, pulsa "Q"
 
 1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
 2. git log --oneline --decorate --all --graph - \*nos enseña todas las relaciones del fichero y en que situación se encuentran\*
@@ -76,14 +71,13 @@ https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
         - git status -s - \*otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas\*
 4. git log -g - \*aparecen commits perdidos\*
 5. git remote -v - nos enseña la url de GITHUB de la carpeta de destino
-6. 
 
-## Formas de borrar##
+### Formas de borrar
 1. git reset *_nombre de la extensión p.e .xml_ - \*para borrar ficheros del stage o cualquier otra cosa\*
 2. git reset .
 3. git gc - \*garbage collector. recolector de basura. Para borrar definitivamente no tiene que haber nada en branch, tag y reflog\*
 
-## push##
+### SOS push
 *git push -f origin main - para forzar un push
 
 
