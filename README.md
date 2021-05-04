@@ -1,8 +1,25 @@
-https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github
-## pasos a seguir##
-~~
-Metodología cuando empiezas git.
+#### [Start GIT - Resume] (https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+Es una buena idea mantener todas las carpetas del repositorio local dentro de una carpeta principal del equipo. Esto mantiene su trabajo de Git muy bien organizado.
+## Pasos a seguir:	
 
+<ul>
+	<li>Identify benefits of using Git</li>
+	<li>Describe a repository</li>
+	<li>Describe a commit</li>
+	<li>Create a local repository</li>
+	<li>Commit to a local repository</li>
+	<li>Create a remote repository</li>
+	<li>Push to a remote repository</li>
+	<li>Differentiate between the working tree, staging area, local repository and remote repository</li>
+<ul>
+
+## Metodología: Inicio git
+### Installation and Getting Started
+
+
+
+
+<!--
     Git status -> Mirar si tienes modificaciones tuyas y si existe algún pull o push
     Git fetch -> Por si acaso tus ramas no se han actualizado correctamente, esto NO actualiza los ficheros de las ramas, sólo el estado de esa rama
     Git status -> Para verificar de nuevo modificaciones, pull y pushs
@@ -17,12 +34,12 @@ Y ya por manía puedes hacer un:
     Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
 
 Para salir de Git log, pulsa "Q"
-## Comando iniciales##
+## Comando iniciales
 
 * git config --global user.name _(nombre de quien va a hacer el código)_
 * git config --global user.email _(email de quien va a hacer el código)_
 
-## Comandos de GIT##
+## Comandos de GIT
 ```ruby 
 1.  git init - \*crea una carpeta .git y una rama main/master\*
         - git clone URL - \*baja el repertorio de GITHUB que queremos trabajar a local\*
