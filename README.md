@@ -19,6 +19,8 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
 [sourcetree_installation](https://github.com/ConxiCR/youtube-git/blob/61c182b0a38ef98787268f212a8c6f4e72ad2f43/lab3_1_02a_sourcetree_installation.pdf). Instalación de Sourcetree.
 
 [cli_installation](https://github.com/ConxiCR/youtube-git/blob/9b223dc65b07a7a2dc8f4eae38729bd9392ed8fb/lab3_1_02b_cli_installation.pdf). Instalación de GIT con línea de comandos.
+## GIT locations
+ El árbol de trabajo contiene los archivos de proyecto para una sola confirmación, el área de ensayo contiene una lista de archivos que se incluirán en la siguiente confirmación, el repositorio local contiene todas las confirmaciones del proyecto. En su equipo local.
 
 
 
