@@ -16,8 +16,10 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
 * git config --global user.name _(nombre de quien va a hacer el código)
 * git config --global user.email _(email de quien va a hacer el código)
   ### Installation and Getting Started
-[sourcetree_installation](https://github.com/ConxiCR/youtube-git/blob/61c182b0a38ef98787268f212a8c6f4e72ad2f43/lab3_1_02a_sourcetree_installation.pdf)
-[cli_installation]()
+[sourcetree_installation](https://github.com/ConxiCR/youtube-git/blob/61c182b0a38ef98787268f212a8c6f4e72ad2f43/lab3_1_02a_sourcetree_installation.pdf). Instalación de Sourcetree.
+
+[cli_installation](https://github.com/ConxiCR/youtube-git/blob/9b223dc65b07a7a2dc8f4eae38729bd9392ed8fb/lab3_1_02b_cli_installation.pdf). Instalación de GIT con línea de comandos.
+
 
 
 
