@@ -25,20 +25,27 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
 ### [Create a local repository with CLI linea de comandos](https://github.com/ConxiCR/youtube-git/blob/be6415ceae39b132e06f78acde195f0888aac25b/GITInstructions/lab3_1_03b_cli_create_local_repositoryWithGit.pdf)
 ### [Create a commit with sourcetree](https://github.com/ConxiCR/youtube-git/blob/c730e2eaa06ea4d124421fde64372601f4ddd6c3/GITInstructions/lab3_1_04a_sourcetree_commit.pdf)
 ### [Create a commit with CLI](https://github.com/ConxiCR/youtube-git/blob/c730e2eaa06ea4d124421fde64372601f4ddd6c3/GITInstructions/lab3_1_04b_cli_commit.pdf)
+### [Create CLI push](https://github.com/ConxiCR/youtube-git/blob/38777e68c6f36881972fc94c5068bf13069862ea/GITInstructions/lab3_1_04b_cli_commit.pdf)
 
+# Comandos de GIT
+<br>
 
-
-<!--
-    Git status -> Mirar si tienes modificaciones tuyas y si existe algún pull o push
-    Git fetch -> Por si acaso tus ramas no se han actualizado correctamente, esto NO actualiza los ficheros de las ramas, sólo el estado de esa rama
-    Git status -> Para verificar de nuevo modificaciones, pull y pushs
-    Git pull -> Ahora sí descargas las actualizaciones
-    Git add/commit/... -> Ahora guardas tus modificaciones
-    Git status -> Miras que siga sin necesitar un pull, por si las moscas
-    Git push -> Subes tus datos
-    Git status -> Compruebas que está todo correctamente-->
-
-
+### creación repositorio nuevo en local
+1. echo "# projectb's README" > README.md
+2. git add README.md
+3. git commit -m "add README.md"
+4. git push -u origin master/main
+5. git status
+### creación repositorio en remoto
+Se crea un nuevo repositorio en remoto bien en Github i Bitbucket
+1. git clone
+2. cd projectb
+3. ls -a
+4. git remote -v
+5. echo "# projectb's README" > README.md
+6. git add README.md
+7. git commit -m "add README.md"
+8. git push -u origin master
 
 ## Comandos de GIT
 ```ruby 
@@ -62,15 +69,17 @@ Es una buena idea mantener todas las carpetas del repositorio local dentro de un
 10. git push
  
 ```
-### Cómo cambiar la URL remota en GIT##
+### Cómo cambiar la URL remota en GIT
 . git remote set-url origin https://github.org/repo.git - < para poder hacer los push correctamente >
 
 ### Cómo eliminar una URL remota de Git
 https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
 
 ### consultas de GIT
- Git log -> Para comprobar que está correctamente comiteado lo que has pusheado
- Para salir de Git log, pulsa "Q"
+ Git log -> Para comprobar que está correctamente comiteado lo que has pusheado.
+ ```ruby
+ Para salir de Git log, pulsa "Q" 
+```
 
 1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
 2. git log --oneline --decorate --all --graph - \*nos enseña todas las relaciones del fichero y en que situación se encuentran\*
@@ -89,4 +98,14 @@ https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
 
 
 
+
+<!--
+    Git status -> Mirar si tienes modificaciones tuyas y si existe algún pull o push
+    Git fetch -> Por si acaso tus ramas no se han actualizado correctamente, esto NO actualiza los ficheros de las ramas, sólo el estado de esa rama
+    Git status -> Para verificar de nuevo modificaciones, pull y pushs
+    Git pull -> Ahora sí descargas las actualizaciones
+    Git add/commit/... -> Ahora guardas tus modificaciones
+    Git status -> Miras que siga sin necesitar un pull, por si las moscas
+    Git push -> Subes tus datos
+    Git status -> Compruebas que está todo correctamente-->
 
