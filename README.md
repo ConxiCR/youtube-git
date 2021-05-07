@@ -1,17 +1,6 @@
 ## [Start GIT - Resume](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 Es una buena idea mantener todas las carpetas del repositorio local dentro de una carpeta principal del equipo. Esto mantiene su trabajo de Git muy bien organizado.
-## Resume: Pasos a seguir:
-<ul>
-	<li>Identify benefits of using Git</li>
-	<li>Describe a repository</li>
-	<li>Describe a commit</li>
-	<li>Create a local repository</li>
-	<li>Commit to a local repository</li>
-	<li>Create a remote repository</li>
-	<li>Push to a remote repository</li>
-	<li>Differentiate between the working tree, staging area, local repository and remote repository</li>
-</ul>
-
+# Resume: Pasos a seguir:
 ## Metodología: Inicio git
 * git config --global user.name _(nombre de quien va a hacer el código)
 * git config --global user.email _(email de quien va a hacer el código)
@@ -95,8 +84,16 @@ https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
 
 ### SOS push
 *git push -f origin main - para forzar un push
-
-
+<!--
+- Una etiqueta de rama es una referencia que apunta a la punta de la rama.
+- HEAD es una referencia que apunta a la confirmación actual.
+- Cree etiquetas para colocar etiquetas en confirmaciones específicas.
+- Las etiquetas no se envían automáticamente a repositorios remotos.
+- Una etiqueta de rama es una referencia que apunta a la punta de la rama.
+- HEAD es una referencia que apunta a la confirmación actual.
+- En los comandos de Git use ~ y ^ para referirse convenientemente a confirmaciones anteriores.
+- Cree etiquetas para colocar etiquetas en confirmaciones específicas.
+- Las etiquetas no se envían automáticamente a un repositorio remoto.
 
 
 <!--
