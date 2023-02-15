@@ -18,17 +18,27 @@
 ```  
   
 ## consultas de GIT
+ - <b>git branch</b> (nos dice todas las ramas que hay)
 
- - <b>Git log</b> -> Para comprobar que está correctamente comiteado lo que has pusheado.
+ - <b>git log</b> -> Para comprobar que está correctamente comiteado lo que has pusheado.
     ```ruby
      Para salir de Git log, pulsa "Q" 
     ```
-- <b>git log --oneline --decorate --all --graph</b> (nos enseña todas las relaciones del fichero y en que situación se encuentran)
-- <b>git log -g</b> (aparecen commits perdidos)
-- <b>ls -al</b> (nos enseña todo lo que hay en la carpeta)
-- <b>git status</b> (Indica en rojo los archivos con cambios)
-- <b>git status -s</b> (otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas)
-- <b>git remote -v</b> (nos enseña la url de GITHUB de la carpeta de destino)
+ - <b>git log --oneline --decorate --all --graph</b> (nos enseña todas las relaciones del fichero y en que situación se encuentran)
+ - <b>git log -g</b> (aparecen commits perdidos)
+ - <b>ls -al</b> (nos enseña todo lo que hay en la carpeta)
+ - <b>git status</b> (Indica en rojo los archivos con cambios)
+ - <b>git status -s</b> (otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas)
+ - <b>git remote -v</b> (nos enseña la url de GITHUB de la carpeta de destino)
+
+## Tags
+ - <b>git tag</b> -a v0.0.1 -m "texto"
+ - <b>git tag</b> (visualizar que hay creado)
+ - <b>git push</b> --tag
+ 
+   ```ruby
+     En github buscar el apartado de tags. Hacer click dentro del `tag, edit tag para escribir descripción del tag` 
+    ```
   
 ## [Start GIT - Resume](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 Es una buena idea mantener todas las carpetas del repositorio local dentro de una carpeta principal del equipo. Esto mantiene su trabajo de Git muy bien organizado.
