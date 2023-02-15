@@ -1,3 +1,35 @@
+## Funcionamiento regular
+
+```ruby 
+. * git status
+  * git add . git add . or git add --all (guarda todos los cambios efectuados hasta el momento)
+  * git commit -m "texto" (Registra los cambios con una explicación de los cambios)
+  * git pull
+  * git push
+```
+## Ramas
+
+```ruby
+  * git checkout -b "nombreRama" (crear nueva rama)
+  * git checkout master or main (volvemos a la rama principal)
+  * git merge "nombreRama" (mergea la rama creada dentro de la principal)
+  * git branch -d "nombreRama" (para borrar una rama que ya no utilizamos)
+  * git push
+```  
+  
+## consultas de GIT
+
+ - <b>Git log</b> -> Para comprobar que está correctamente comiteado lo que has pusheado.
+    ```ruby
+     Para salir de Git log, pulsa "Q" 
+    ```
+- <b>git log --oneline --decorate --all --graph</b> (nos enseña todas las relaciones del fichero y en que situación se encuentran)
+- <b>git log -g</b> (aparecen commits perdidos)
+- <b>ls -al</b> (nos enseña todo lo que hay en la carpeta)
+- <b>git status</b> (Indica en rojo los archivos con cambios)
+- <b>git status -s</b> (otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas)
+- <b>git remote -v</b> (nos enseña la url de GITHUB de la carpeta de destino)
+  
 ## [Start GIT - Resume](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 Es una buena idea mantener todas las carpetas del repositorio local dentro de una carpeta principal del equipo. Esto mantiene su trabajo de Git muy bien organizado.
 # Resume: Pasos a seguir:
@@ -64,18 +96,7 @@ Se crea un nuevo repositorio en remoto bien en Github i Bitbucket
 ### Cómo eliminar una URL remota de Git
 https://www.delftstack.com/es/howto/git/how-to-remove-a-git-remote-url/
 
-### consultas de GIT
- Git log -> Para comprobar que está correctamente comiteado lo que has pusheado.
- ```ruby
- Para salir de Git log, pulsa "Q" 
-```
 
-1. ls -al - \*nos enseña todo lo que hay en la carpeta\*
-2. git log --oneline --decorate --all --graph - \*nos enseña todas las relaciones del fichero y en que situación se encuentran\*
-3. git status - \*Indica en rojo los archivos con cambios\*
-        - git status -s - \*otra forma de enseñarnos el status. En lugar de colorear nos pone letras de las acciones realizadas\*
-4. git log -g - \*aparecen commits perdidos\*
-5. git remote -v - nos enseña la url de GITHUB de la carpeta de destino
 
 ### Formas de borrar
 1. git reset *_nombre de la extensión p.e .xml_ - \*para borrar ficheros del stage o cualquier otra cosa\*
