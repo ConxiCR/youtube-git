@@ -35,7 +35,7 @@
  * git fetch upstream
  * git merge upstream/main
  * git push origin main
- * git push origin master - borrado del repositorio upstream
+ * git remote rm upstream - borrado del repositorio upstream
  ``` 
 ## consultas de GIT
  - <b>git branch</b> (nos dice todas las ramas que hay)
