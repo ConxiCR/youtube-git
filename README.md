@@ -16,7 +16,27 @@
   * git branch -d "nombreRama" (para borrar una rama que ya no utilizamos)
   * git push
 ```  
-  
+
+## pull request
+ ```ruby
+  * git add .
+  * git commit -m "texto"
+  * git remote 
+       $ git remote
+       origin
+       upstream
+ * git push origin [Nombre de la Rama]
+```  
+## Sincronización de ramas
+ ```ruby
+ * git branch (para saber cuantas ramas tenemos)
+ * git checkout (nombre rama maestra-master o main)
+ * git remote add upstream [HTTPS github]
+ * git fetch upstream
+ * git merge upstream/main
+ * git push origin main
+ * git push origin master - borrado del repositorio upstream
+ ``` 
 ## consultas de GIT
  - <b>git branch</b> (nos dice todas las ramas que hay)
 
